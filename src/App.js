@@ -6,6 +6,7 @@ import Produtos from "./components/Produtos";
 import {DadosProdutos, DadosProdutos2} from "./components/Produtos/dados";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
+import Sobremesas from "./components/Sobremesas";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Main/>
       <Produtos header='Escolha sua Favorita' dados={DadosProdutos}/>
       <Feature/>
-      <Produtos header='Doces Maravilhos para Você' dados={DadosProdutos2}/>
+      <Sobremesas header='Doces Maravilhos para Você' dados={DadosProdutos2}/>
       <Footer/>
     </Router>
   );

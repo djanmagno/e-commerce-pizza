@@ -1,0 +1,61 @@
+{
+    "DadosProdutos" : [
+        {
+            "id": 1,
+            "img": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            "alt": "Pizza",
+            "nome": "Pizza Suprema",
+            "descricao": "Pizza de massa fina com Molho Parisiense, Queijo Mussarela, Manjericão, tomates Italianos, Azeitonas rechadas com Pesto.",
+            "preco": "R$ 19,90",
+            "botao": "Adicione ao Carrinho"
+        },
+        {
+            "id": 2,
+            "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "alt": "Pizza",
+            "nome": "Pizza Mussarela",
+            "descricao": "Pizza de massa fina com toque azeite de Alecrim, Molho de tomate Italiano caseiro, Queijo Mussarela coberta.",
+            "preco": "R$ 29,90",
+            "botao": "Adicione ao Carrinho"
+        },
+        {
+            "id": 3,
+            "img": "https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=433&q=80",
+            "alt": "Pizza",
+            "nome": "Pizza Vegetariana",
+            "descricao": "Pizza de massa fina com Molho de Tomate, Queijo Mussarela, Champignon, Tomates Cerejas e coberta com Manjericão.",
+            "preco": "R$ 23,90",
+            "botao": "Adicione ao Carrinho"
+        }
+    ],
+    
+    "DadosProdutos2" : [
+        {
+            "id": 4,
+            "img": "https://images.unsplash.com/photo-1551106652-a5bcf4b29ab6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80",
+            "alt": "Donuts",
+            "nome": "Donuts Americano",
+            "descricao": "Massa tradicional coberta com chocolate nobre ao leite finalizado com granulado preto e branco e muito sabor para seu dia.",
+            "preco": "R$ 12,90",
+            "botao": "Adicione ao Carrinho"
+        },
+        {
+            "id": 5,
+            "img": "https://images.unsplash.com/photo-1572829214292-1f9b1aa3b1ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+            "alt": "Sorvete Artesanal",
+            "nome": "Chocolate Belga",
+            "descricao": "Sorvete de Chocolate Belga com Flocos de Chocolate biscoite Oreo e muita calda.para você se deliciar com esse mix de sabores.",
+            "preco": "R$ 16,90",
+            "botao": "Adicione ao Carrinho"
+        },
+        {
+            "id": 6,
+            "img": "https://images.unsplash.com/photo-1606884285898-277317a7bf12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=376&q=80",
+            "alt": "Brownie",
+            "nome": "Brownie do Djan",
+            "descricao": "Nosso clássico brownie de chocolate no formato tradicional, o primogênito que é temperado com o amor como ingrediente nada secreto.",
+            "preco": "R$ 9,90",
+            "botao": "Adicione ao Carrinho"
+        }
+    ]
+}
