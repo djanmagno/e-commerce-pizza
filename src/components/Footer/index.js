@@ -25,7 +25,7 @@ function Footer() {
           <FooterBundle>
               <SocialMedia>
                   <SociaMediaBundle>
-                      <SocialLogo to="/">Pizza</SocialLogo>
+                      <SocialLogo to="/">Pizza Hot</SocialLogo>
                       <SocialIcons>
                           <SocialIconsLink href="/" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
                             <FaFacebook/>

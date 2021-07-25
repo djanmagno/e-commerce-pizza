@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Modal from '../Modal/modal';
 import {SidebarContainer, Icon, CloseIcon, SidebarMenu,
      SidebarLink, SideBtnOrder, SidebarRoute} from './SidebarElements';
 
 // import { Container } from './styles';
 
 function Sidebar({isOpen, alter}) {
+
+  //Login
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+      setShowModal(prev => !prev);
+  };
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={alter}>
         <Icon onClick={alter}>
@@ -16,7 +25,8 @@ function Sidebar({isOpen, alter}) {
             <SidebarLink to="/">Menu Completo</SidebarLink>
         </SidebarMenu>
         <SideBtnOrder>
-            <SidebarRoute to="/">Peça Agora</SidebarRoute>
+            <SidebarRoute to="/" onClick={openModal}>Peça Agora</SidebarRoute>
+            <Modal showModal={showModal} setShowModal={setShowModal}/>
         </SideBtnOrder>
     </SidebarContainer>
   );

@@ -7,7 +7,7 @@ function Navbar({alter}) {
   return (
       <>
           <Nav>
-              <NavLink to='/'>Pizza</NavLink>
+              <NavLink to='/'>Pizza Hot</NavLink>
               <NavIcon onClick={alter}>
                   <p>Menu</p>
                   <Bars />
